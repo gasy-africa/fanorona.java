@@ -1,0 +1,24 @@
+<document>
+  <properties>
+    <author email="setrar@setrar@users.sourceforge.net">Setrar Ramiara</author>
+    <title>Fanorona</title>
+  </properties>
+  <!-- Optional HEAD element, which is copied as is into the XHTML <head> element -->
+  <head>
+  </head>
+  <body>
+    <!-- The body of the document contains a number of sections -->
+    <section name="Fanorona">
+
+      <!-- Within sections, any XHTML can be used -->
+<source>
+Fanorona is a board game indigenous to Madagascar and derived from Alquerque.<br/>
+
+This project is a fork of David Eppstein [Dept. Information &amp; Computer Science, UC Irvine]
+<a href="http://www.ics.uci.edu/~eppstein/180a/projects/fanorona/" >http://www.ics.uci.edu/~eppstein/180a/projects/fanorona/</a>
+
+</source>
+
+    </section>
+  </body>
+</document>

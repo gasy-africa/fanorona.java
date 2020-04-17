@@ -1,0 +1,56 @@
+<document>
+<h4>Quick Developer Guide</h4>
+<source>
+Fanorona is written in Java. Its UI Component is an Applet and mostly uses AWT;<br/>
+- A StackLayout is a LayoutManager that arranges components in a vertical (or horizontal)<br/>
+- A 64 BitSet allowing Data Representation and Manipulation of the board.<br/>
+- A Tree Game Search using the <a href="https://chessprogramming.wikispaces.com/Alpha-Beta">Alpha-Beta Pruning</a> search implementing: <br/>
+    * a mini-max evaluation<br/>
+    * a Transposition Table<br/>
+    * an Aspiration Search<br/>
+    * an <a href="https://chessprogramming.wikispaces.com/Internal+Iterative+Deepening">Internal Iterative Deepening</a> [IID]<br/>
+    * an alpha-beta enhancement called Principal Variation<br/>
+    * a - Memory Test Driver reducing the calculation time. <a href="https://chessprogramming.wikispaces.com/MTD(f)">MTD(f)</a> <br/>   
+
+</source>
+<h4>Some other Tree Search Documentation</h4>
+<source>
+
+<a href="http://www.ics.uci.edu/~eppstein/180a/w99.html"> Strategy and board game programming </a> - David Eppstein's Courses at UCI - Lecture notes April 22, 1997
+<a href="http://www.ics.uci.edu/~eppstein/180a/970422.html"> Alpha-Beta Search </a> - David Eppstein's Courses at UCI
+
+<a href="http://www.math-info.univ-paris5.fr/~bouzy/Doc/PJR/RACours.pdf"> Recherche arborescente (In French)</a> Bruno Bouzy - Universite Rene Descartes
+, 16 Novembre 2005
+</source>
+<h4>Fanorona Bits Explanation</h4>
+<source>
+An Excell Spreadsheet trying to explain the bit manipulation used in the game. 
+<a href="docs/Fanorona Bits Explanation.xls" >Fanorona Bits Explanation.xls</a>
+</source>
+<h4>Tasks</h4>
+<source>
+- UI and Search Engine Separation
+
+
+</source>
+<h4>Maven Site Deploy</h4>
+<source>
+   Do not forget to setup your <a href="http://maven.apache.org/settings.html">~/.m2/settings.xml</a> file
+      &lt;server&gt;
+          &lt;id&gt;shell.sourceforge.net&lt;/id&gt;
+          &lt;username&gt;USER,gasy-fanorona&lt;/username&gt;
+          &lt;password&gt;PASSWD&lt;/password&gt;
+      &lt;/server&gt;
+</source>
+
+<a href="https://sourceforge.net/apps/trac/sourceforge/wiki/Shell%20service">SF.net Shell Service</a>
+
+
+<h4>Launching</h4>
+<h5>From Eclipse</h5>
+<source> Right Click on Fanorona.java - It's an applet </source>
+<h5>From command line</h5>
+<source> java -classpath . Acme.Main - It's a Java App </source>
+
+
+</document>

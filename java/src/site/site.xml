@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project name="Gasy-Fanorona">
+ 
+  <bannerLeft>
+    <name>Fanorona</name>
+  </bannerLeft>
+  <bannerRight>
+    <src>http://www.valiha.com/resources/_wsb_logo.jpg</src>
+  </bannerRight> 
+  <body>
+    <links>
+      <item name="SVN" href="http://gasy-fanorona.svn.sourceforge.net/viewvc/gasy-fanorona/" />
+      <item name="Project" href="http://sourceforge.net/projects/gasy-fanorona/" />
+    </links>
+    <menu name="Fanorona">
+      <item name="Introduction" href="index.html"/>
+      <item name="License" href="license.html"/>
+      <item name="Download" href="download.html"/>
+      <item name="Release Notes" href="release-notes.html" />
+      <item name="Road Map" href="roadmap.html" />
+      <item name="User Guide and more" href="userGuide.html" />
+      <item name="Developer Guide" href="developerGuide.html" />
+      <item name="Graphics" href="graphics.html" />
+      <item name="Attempt" href="attempt.html" />
+    </menu>
+    <menu ref="reports"/>
+  </body>
+</project>

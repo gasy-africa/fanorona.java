@@ -1,0 +1,50 @@
+<document>
+
+<h4>Preamble</h4>
+
+<source>
+Fanorona Multithreaded Server.
+
+I have played for a while now with multiple versions of the Fanorona.
+- One created by Andrew Keller on the Apple AppStore
+- One by Jonhattan Clapp
+but none of them reach the prof's version level.
+
+I then tried to separate the Logic from the UI (Applet and AWT) without much success.
+
+The Fanorona Java Version is somewhat tightly mingled all together.
+It doesn't follow a clear MVC pattern therefore trying to create a multi-tiered layer is tedious.
+
+Also Fanorona uses a pre JDK1.5 version of Java Concurrency and threads.
+The Observer Pattern is also tightly used between the UI and the search component. 
+
+Rather than trying to separate the existing version, I will try to extract its data structure and algorithm.
+
+What I like in this version is the use of the Bit Set Manipulation of a 64 bit board.
+
+The Bit Manipulation can convert a row/column model to bit representation that can be passed to the search engine.
+Obviously the search algorithm is by far the most valuable asset of this open source.
+
+</source>
+
+<h4>Attempt</h4>
+<source>
+- Data Structure
+     * Extract the Bit Set Manipulation and Board Representation
+     
+- Algorithm
+     * Isolate the Tree Game Search  
+ 
+- Server
+     * Create a multithreaded Server (i.e. JDK 5 Executors) allowing multiple users to submit their boards
+     * Use NIO network frameworks (i.e. Netty or Mina) to receive XMLHTTP, or JSon Requests
+     * Enable Time or LRU Cache of current online user boards base on hashed session. this will manage priority queues (first in first served basis)
+
+</source>
+
+<h4>Status</h4>
+<source>
+Move the code to Clojure:---
+</source>
+
+</document>

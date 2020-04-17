@@ -1,0 +1,33 @@
+<document>
+<h4>How to generate the board and pieces?</h4>
+
+<img src="docs/mega-pov.jpg" alt="MegaPOV"  />
+
+<h4>POV Sources</h4>
+<Source>
+<a href="povray/Board.pov">Board.pov  </a>Board POVRAY Source Code
+<img src="povray/Board.png" alt="Board.pov"  />
+
+<br/>
+
+<a href="povray/Black.pov">Black.pov  </a>Black POVRAY Source Code
+<img src="povray/Black.png" alt="Black.pov"  />
+
+<br/>
+
+<a href="povray/White.pov">White.pov  </a>White POVRAY Source Code
+<img src="povray/White.png" alt="White.pov"  />
+
+<a href="http://megapov.inetart.net/povrayunofficial_mac/" >POV-Ray Unofficial 3.7 for Mac.</a>
+
+</Source>
+
+<h4>POV Binaries</h4>
+
+<Source>
+
+<a href="http://megapov.inetart.net/povrayunofficial_mac/" >POV-Ray Unofficial 3.7 for Mac.</a>
+
+</Source>
+
+</document>

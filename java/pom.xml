@@ -1,0 +1,57 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.sf</groupId>
+  <artifactId>gasy-fanorona</artifactId>
+  <name>Gasy Fanorona</name>
+  <version>0.0.1-SNAPSHOT</version>
+  <url>http://sourceforge.net/projects/gasy-fanorona/</url>
+  <issueManagement>
+    <system>Source Forge</system>
+    <url>http://sourceforge.net/tracker/?group_id=237327&amp;atid=1102872</url>
+  </issueManagement>
+  <developers>
+    <developer>
+      <id>setrar</id>
+      <name>Setra R.</name>
+      <email>setrar@users.sourceforge.net</email>
+      <url>http://sourceforge.net/users/setrar/</url>
+      <roles>
+        <role>Java Developer</role>
+      </roles>
+      <timezone>-5</timezone>
+    </developer>
+  </developers>
+  <build>
+	<pluginManagement>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-site-plugin</artifactId>
+				<version>3.0</version>
+				<dependencies>
+					<dependency><!-- add support for ssh/scp -->
+						<groupId>org.apache.maven.wagon</groupId>
+						<artifactId>wagon-ssh</artifactId>
+						<version>1.0</version>
+					</dependency>
+				</dependencies>
+			</plugin>
+		</plugins>
+	</pluginManagement>
+  </build>
+  <scm>
+    <connection>scm:svn:https://gasy-fanorona.svn.sourceforge.net/svnroot/gasy-fanorona/trunk</connection>
+    <developerConnection>scm:svn:https://gasy-fanorona.svn.sourceforge.net/svnroot/gasy-fanorona/trunk</developerConnection>
+    <url>http://gasy-fanorona.svn.sourceforge.net/viewvc/gasy-fanorona/</url>
+  </scm>
+  <distributionManagement>
+    <site>
+      <id>shell.sourceforge.net</id>
+      <url>scp://shell.sourceforge.net/home/project-web/gasy-fanorona/htdocs</url>
+    </site>
+  </distributionManagement>
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+</project>
