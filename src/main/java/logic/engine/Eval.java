@@ -40,28 +40,24 @@ public abstract class Eval {
 	static final int THREAT_DEPTH = -15;
 
 	// Bit masks for finding batteries
-	static final long LEFT_MARGIN = 006003401400700300L; // must be clear for
-															// battery
-	static final long LEFT_BATTERY = 000000000001000400L; // must be set in
-															// battery test
-	static final long RIGHT_MARGIN = 000140160030034006L; // must be clear for
-															// battery
-	static final long RIGHT_BATTERY = 000000000000002001L; // must be set in
-															// battery test
+	static final long LEFT_MARGIN           = 0b0110000000011100000001100000000111000000011000000L; // must be clear for battery
+	static final long LEFT_BATTERY          = 0b0000000000000000000000000000001000000000100000000L; // must be set in battery test
+	static final long RIGHT_MARGIN          = 0b0000001100000001110000000011000000011100000000110L; // must be clear for battery
+	static final long RIGHT_BATTERY         = 0b0000000000000000000000000000000000000010000000001L; // must be set in battery test
 
 	// Stuff for finding fortresses
     static final long SM_LEFT_FORT          = 0b1000000000110000000011000000001100000000100000000L;
 	static final long SM_LEFT_GUARD         = 0b0000000000011000000000100000000110000000000000000L;
-	static final long SM_LEFT_ATTACK        = 003000000200000140L;
-	static final long LG_LEFT_FORT          = 016007403601700700L;
-	static final long LG_LEFT_GUARD         = 000000600700140000L;
-	static final long LG_LEFT_ATTACK        = 000600000040000030L;
-	static final long SM_RIGHT_FORT         = 000020030014006001L;
-	static final long SM_RIGHT_GUARD        = 000000020020004000L;
-	static final long SM_RIGHT_ATTACK       = 000300000020000014L;
-	static final long LG_RIGHT_FORT         = 000160170074036007L;
-	static final long LG_RIGHT_GUARD        = 000000300160060000L;
-	static final long LG_RIGHT_ATTACK       = 001400000200000060L;
+	static final long SM_LEFT_ATTACK        = 0b0011000000000000000000010000000000000000001100000L;
+	static final long LG_LEFT_FORT          = 0b1110000000111100000011110000001111000000111000000L;
+	static final long LG_LEFT_GUARD         = 0b0000000000000110000000111000000001100000000000000L;
+	static final long LG_LEFT_ATTACK        = 0b0000110000000000000000000100000000000000000011000L;
+	static final long SM_RIGHT_FORT         = 0b0000000010000000011000000001100000000110000000001L;
+	static final long SM_RIGHT_GUARD        = 0b0000000000000000010000000010000000000100000000000L;
+	static final long SM_RIGHT_ATTACK       = 0b0000011000000000000000000010000000000000000001100L;
+	static final long LG_RIGHT_FORT         = 0b0000001110000001111000000111100000011110000000111L;
+	static final long LG_RIGHT_GUARD        = 0b0000000000000011000000001110000000110000000000000L;
+	static final long LG_RIGHT_ATTACK       = 0b0001100000000000000000010000000000000000000110000L;
 
 	// Which squares are attacked by a given set of pieces moving to a given set
 	// of squares?
