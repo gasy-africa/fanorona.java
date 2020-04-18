@@ -22,6 +22,11 @@ package logic.board;
 // The original version presented the Bit Constants in Octal then decimal
 // the following is a binary representation which helps avoiding scratching too much head
 
+import javax.swing.plaf.basic.BasicInternalFrameTitlePane;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.IntStream;
+
 public abstract class Bits {
     public static final long IS_WHITE    = 0b0100000000000000000000000000000000000000000000000000000000000000L; // 1L << 62
     public static final long CAPTURED    = 0b1000000000000000000000000000000000000000000000000000000000000000L; // 1L << 63; sign
@@ -39,20 +44,6 @@ public abstract class Bits {
 	public static final long DIAGONAL    = 0b0000000000000001010101010010101010010101010100101010100101010101L;
 	public static final long ON_BOARD    = 0b0000000000000001111111110111111111011111111101111111110111111111L;
 	public static final long CENTER      = 0b0000000000000000000000000000000000000111110000000000000000000000L;
-
-	// Fanorona Board
-	// 4 control bits (1st bit is used for capture, 2nd bit for Color - White and Black)
-    // 60 bits board representation
-    //
-	//	C	W	x	x
-    //	~	a	b	c	d	e	f	g	h	i <- (Empty Row - Representing the board letters - filled with 0)
-    //	5	1	0	1	0	1	0	1	0	1
-    //	4	0	1	0	1	0	1	0	1	0
-    //	3	1	0	1	0	1	0	1	0	1
-    //	2	0	1	0	1	0	1	0	1	0
-    //	1	1	0	1	0	1	0	1	0	1
-    //  ^
-    //  | (Empty Column - Representing the board numbers - filled with 0)
 
 	// turn screen coordinates into bit position
 	public static long at(int row, int col) {
@@ -82,6 +73,58 @@ public abstract class Bits {
 		return (((result & FOURS) + ((result >>> 4) & FOURS)) * 0x01010101) >>> 24;
 	}
 
-    public static final String fill64(String bin) { return String.format("%0"+(64-bin.length())+"d%s", 0, bin+"L"); }
+    // Fanorona Board
+    // 4 control bits (1st bit is used for capture, 2nd bit for Color - White and Black)
+    // 60 bits board representation
+    //
+    //	C	W	x	x
+    //	~	a	b	c	d	e	f	g	h	i <- (Empty Row - Representing the board letters - filled with 0)
+    //	5	1	0	1	0	1	0	1	0	1
+    //	4	0	1	0	1	0	1	0	1	0
+    //	3	1	0	1	0	1	0	1	0	1
+    //	2	0	1	0	1	0	1	0	1	0
+    //	1	1	0	1	0	1	0	1	0	1
+    //  ^
+    //  | (Empty Column - Representing the board numbers - filled with 0)
+
+    public static String fill64(String bin) { return String.format("%0"+(64-bin.length())+"d%s", 0, bin+"L"); }
+
+    public static List<List<Character>> display(String bin) {
+
+        //                   CWxxxxxxxxxxxx5abcdefghi4abcdefghi3abcdefghi2abcdefghi1abcdefghi
+        //                   0123456789012345678901234567890123456789012345678901234567890123
+        long INITIAL_BOT = 0b0000000000000000000000000000000000001010010101111111110111111111L;
+
+        List<Character> control = new ArrayList<>();
+        IntStream.range(0, 4).forEach(index -> control.add(bin.charAt(index)));
+        List<Character> one = new ArrayList<Character>();
+        IntStream.range(55, 64).forEach(index -> one.add(bin.charAt(index)));
+        List<Character> two = new ArrayList<Character>();
+        IntStream.range(45, 54).forEach(index -> two.add(bin.charAt(index)));
+        List<Character> three = new ArrayList<Character>();
+        IntStream.range(35, 44).forEach(index -> three.add(bin.charAt(index)));
+        List<Character> four = new ArrayList<Character>();
+        IntStream.range(25, 34).forEach(index -> four.add(bin.charAt(index)));
+        List<Character> five = new ArrayList<Character>();
+        IntStream.range(15, 24).forEach(index -> five.add(bin.charAt(index)));
+
+        List<List<Character>> board = new ArrayList<List<Character>>();
+        board.add(control); // board(0)
+        board.add(one); // board(1)
+        board.add(two); // board(2)
+        board.add(three); // board(3)
+        board.add(four); // board(4)
+        board.add(five); // board(5)
+
+        System.out.println("~: [a, b, c, d, e, f, g, h, i]");
+        System.out.println("5: "+ board.get(5));
+        System.out.println("4: "+ board.get(4));
+        System.out.println("3: "+ board.get(3));
+        System.out.println("2: "+ board.get(2));
+        System.out.println("1: "+ board.get(1));
+
+        return board;
+    }
+
 
 }

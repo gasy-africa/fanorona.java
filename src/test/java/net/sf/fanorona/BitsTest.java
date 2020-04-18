@@ -3,9 +3,12 @@ package net.sf.fanorona;
 import logic.board.Bits;
 import logic.board.Board;
 import logic.engine.MoveGenerator;
-import org.testng.annotations.*;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
 
-public class SimpleTest {
+import java.util.List;
+
+public class BitsTest {
 
     Board b;
     MoveGenerator mg;
@@ -13,20 +16,16 @@ public class SimpleTest {
     @BeforeClass
     public void setUp() {
         b = new Board();
-        mg = new MoveGenerator(b);
     }
 
     @Test(groups = { "fast" })
     public void aFastTest() {
         String myPieces = Bits.fill64(Long.toBinaryString(b.myPieces));
-        System.out.println("myPieces   : "+ myPieces);
+        System.out.println(myPieces);
         Bits.display(myPieces);
-        for (int i = 0;i < 3;i++) {
-            System.out.println("------------ \nnext   : ");
-            String next = Bits.fill64(Long.toBinaryString(mg.nextElement()));
-            Bits.display(next);
-            System.out.println("hasCapture : "+ mg.hasCapture());
-        }
+        String opponentPieces = Bits.fill64(Long.toBinaryString(b.opponentPieces));
+        System.out.println(opponentPieces);
+        Bits.display(opponentPieces);
     }
 
     @Test(groups = { "slow" })
