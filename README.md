@@ -16,6 +16,6 @@ cd target/classes; java -Dfile.encoding=UTF-8 -classpath . Acme.Main
 
 To run change the Run config using the following settings
 
-![image](images/Run.png))
+![image](images/Run.png)
 
 
