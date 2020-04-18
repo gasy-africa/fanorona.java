@@ -21,6 +21,14 @@
       <timezone>-5</timezone>
     </developer>
   </developers>
+  <dependencies>
+    <dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>6.9.8</version>
+        <scope>test</scope>
+    </dependency>
+  </dependencies>
   <build>
 	<pluginManagement>
 		<plugins>

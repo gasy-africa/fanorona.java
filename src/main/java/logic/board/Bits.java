@@ -81,4 +81,7 @@ public abstract class Bits {
 		int result = (int) set + (int) (set >>> 32);
 		return (((result & FOURS) + ((result >>> 4) & FOURS)) * 0x01010101) >>> 24;
 	}
+
+    public static final String fill64(String bin) { return String.format("%0"+(64-bin.length())+"d%s", 0, bin+"L"); }
+
 }
