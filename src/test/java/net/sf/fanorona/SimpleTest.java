@@ -13,11 +13,13 @@ public class SimpleTest {
     @BeforeClass
     public void setUp() {
         b = new Board();
+        b.myPieces = 544790103982080L;
         mg = new MoveGenerator(b);
     }
 
-    @Test(groups = { "fast" })
+//    @Test(groups = { "fast" })
     public void aFastTest() {
+
         String myPieces = Bits.fill64(Long.toBinaryString(b.myPieces));
         System.out.println("myPieces   : "+ myPieces);
         Bits.display(myPieces);
@@ -29,7 +31,7 @@ public class SimpleTest {
         }
     }
 
-    @Test(groups = { "slow" })
+    //@Test(groups = { "slow" })
     public void aSlowTest() {
         System.out.println("Slow test");
     }

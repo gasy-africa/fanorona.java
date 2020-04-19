@@ -89,6 +89,10 @@ public abstract class Bits {
 
     public static String fill64(String bin) { return String.format("%0"+(64-bin.length())+"d%s", 0, bin+"L"); }
 
+    public static List<List<Character>> display(long bin) {
+        return Bits.display(Bits.fill64(Long.toBinaryString(bin)));
+    }
+
     public static List<List<Character>> display(String bin) {
 
         //                   CWxxxxxxxxxxxx5abcdefghi4abcdefghi3abcdefghi2abcdefghi1abcdefghi
