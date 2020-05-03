@@ -42,7 +42,7 @@ public static final long INITIAL_BOT = 0b000000000000000000000000000000000000101
 public static final long INITIAL_TOP = 0b0000000000000001111111110111111111010100101000000000000000000000L;
 ```
 
-The `Bits.java` source code has been rewritten using [binary literal](https://docs.oracle.com/javase/8/docs/technotes/guides/language/binary-literals.html) to simplify code review.
+The [`Bits.java`](../src/main/java/logic/board/Bits.java) source code has been rewritten using [binary literal](https://docs.oracle.com/javase/8/docs/technotes/guides/language/binary-literals.html) to simplify code review.
 
 
 ### :a: Scenarios
