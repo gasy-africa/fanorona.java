@@ -1,5 +1,16 @@
 # Move Generator Analysis
 
+
+```java
+	// what kind of move is represented by the bits in set
+	int captureType;
+	static final int CAPTURE_FORWARD = 0;
+	static final int CAPTURE_BACKWARD = 1;
+	static final int NO_CAPTURE = 2;
+	static final int PASS = 3;
+	static final int NO_MORE_MOVES = 4;
+```
+
 :round_pushpin: Working on Set 
 
 |`~`|a| b| c| d| e| f| g| h| i|
