@@ -2,7 +2,6 @@
 
 :round_pushpin: Working on Set 
 
-
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
 |`5`|0| 0| 0| 0| 0| 0| 0| 0| 0|
@@ -16,8 +15,8 @@
 | moveSetIndex | type | capt? | shift |
 |--------------|------|-------|-------|
 |0 | 0 | true | 10 |
-pulling bits out of Set 
 
+:round_pushpin: pulling bits out of Set 
 
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
@@ -26,8 +25,8 @@ pulling bits out of Set
 |`3`|0| 0| 0| 0| 0| 0| 0| 1| 0|
 |`2`|0| 0| 0| 0| 0| 0| 0| 1| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-:round_pushpin: Working on Set 
 
+:round_pushpin: Working on Set 
 
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
@@ -42,8 +41,8 @@ pulling bits out of Set
 | moveSetIndex | type | capt? | shift |
 |--------------|------|-------|-------|
 |0 | 0 | true | 10 |
-pulling bits out of Set 
 
+:round_pushpin: pulling bits out of Set 
 
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
@@ -52,8 +51,8 @@ pulling bits out of Set
 |`3`|0| 0| 0| 0| 0| 1| 0| 0| 0|
 |`2`|0| 0| 0| 0| 0| 1| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-:round_pushpin: Working on Set 
 
+:round_pushpin: Working on Set 
 
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
@@ -68,8 +67,8 @@ pulling bits out of Set
 | moveSetIndex | type | capt? | shift |
 |--------------|------|-------|-------|
 |0 | 0 | true | 10 |
-pulling bits out of Set 
 
+:round_pushpin: pulling bits out of Set 
 
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
@@ -78,8 +77,8 @@ pulling bits out of Set
 |`3`|0| 0| 1| 0| 0| 0| 0| 0| 0|
 |`2`|0| 0| 1| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-:round_pushpin: Working on Set 
 
+:round_pushpin: Working on Set 
 
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
@@ -94,8 +93,8 @@ pulling bits out of Set
 | moveSetIndex | type | capt? | shift |
 |--------------|------|-------|-------|
 |0 | 0 | true | 10 |
-pulling bits out of Set 
 
+:round_pushpin: pulling bits out of Set 
 
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
@@ -104,8 +103,8 @@ pulling bits out of Set
 |`3`|1| 0| 0| 0| 0| 0| 0| 0| 0|
 |`2`|1| 0| 0| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-:round_pushpin: Working on Set 
 
+:round_pushpin: Working on Set 
 
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
@@ -120,8 +119,8 @@ pulling bits out of Set
 | moveSetIndex | type | capt? | shift |
 |--------------|------|-------|-------|
 |0 | 0 | true | 10 |
-pulling bits out of Set 
 
+:round_pushpin: pulling bits out of Set 
 
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
@@ -130,8 +129,8 @@ pulling bits out of Set
 |`3`|0| 0| 0| 0| 0| 0| 0| 0| 1|
 |`2`|0| 0| 0| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-:round_pushpin: Working on Set 
 
+:round_pushpin: Working on Set 
 
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
@@ -146,8 +145,8 @@ pulling bits out of Set
 | moveSetIndex | type | capt? | shift |
 |--------------|------|-------|-------|
 |0 | 0 | true | 10 |
-pulling bits out of Set 
 
+:round_pushpin: pulling bits out of Set 
 
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
@@ -156,8 +155,8 @@ pulling bits out of Set
 |`3`|0| 0| 0| 0| 0| 0| 1| 0| 0|
 |`2`|0| 0| 0| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-:round_pushpin: Working on Set 
 
+:round_pushpin: Working on Set 
 
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
@@ -172,8 +171,8 @@ pulling bits out of Set
 | moveSetIndex | type | capt? | shift |
 |--------------|------|-------|-------|
 |0 | 0 | true | 10 |
-pulling bits out of Set 
 
+:round_pushpin: pulling bits out of Set 
 
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
@@ -182,8 +181,8 @@ pulling bits out of Set
 |`3`|0| 0| 0| 0| 1| 0| 0| 0| 0|
 |`2`|0| 0| 0| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-:round_pushpin: Working on Set 
 
+:round_pushpin: Working on Set 
 
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
@@ -198,8 +197,8 @@ pulling bits out of Set
 | moveSetIndex | type | capt? | shift |
 |--------------|------|-------|-------|
 |0 | 0 | true | 10 |
-pulling bits out of Set 
 
+:round_pushpin: pulling bits out of Set 
 
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
@@ -208,8 +207,8 @@ pulling bits out of Set
 |`3`|0| 0| 0| 1| 0| 0| 0| 0| 0|
 |`2`|0| 0| 0| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-:round_pushpin: Working on Set 
 
+:round_pushpin: Working on Set 
 
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
@@ -224,8 +223,8 @@ pulling bits out of Set
 | moveSetIndex | type | capt? | shift |
 |--------------|------|-------|-------|
 |0 | 0 | true | 10 |
-pulling bits out of Set 
 
+:round_pushpin: pulling bits out of Set 
 
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
@@ -234,8 +233,8 @@ pulling bits out of Set
 |`3`|0| 1| 0| 0| 0| 0| 0| 0| 0|
 |`2`|0| 0| 0| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-:round_pushpin: Working on Set 
 
+:round_pushpin: Working on Set 
 
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
@@ -250,8 +249,8 @@ pulling bits out of Set
 | moveSetIndex | type | capt? | shift |
 |--------------|------|-------|-------|
 |1 | 0 | true | 1 |
-pulling bits out of Set 
 
+:round_pushpin: pulling bits out of Set 
 
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
@@ -260,8 +259,8 @@ pulling bits out of Set
 |`3`|0| 0| 0| 0| 0| 1| 1| 1| 0|
 |`2`|0| 0| 0| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-:round_pushpin: Working on Set 
 
+:round_pushpin: Working on Set 
 
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
@@ -276,8 +275,8 @@ pulling bits out of Set
 | moveSetIndex | type | capt? | shift |
 |--------------|------|-------|-------|
 |1 | 0 | true | 1 |
-pulling bits out of Set 
 
+:round_pushpin: pulling bits out of Set 
 
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
@@ -286,8 +285,8 @@ pulling bits out of Set
 |`3`|1| 1| 1| 0| 0| 0| 0| 0| 0|
 |`2`|0| 0| 0| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-:round_pushpin: Working on Set 
 
+:round_pushpin: Working on Set 
 
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
@@ -302,8 +301,8 @@ pulling bits out of Set
 | moveSetIndex | type | capt? | shift |
 |--------------|------|-------|-------|
 |2 | 0 | true | 11 |
-pulling bits out of Set 
 
+:round_pushpin: pulling bits out of Set 
 
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
@@ -312,8 +311,8 @@ pulling bits out of Set
 |`3`|0| 0| 1| 0| 0| 0| 0| 0| 0|
 |`2`|0| 0| 0| 1| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-:round_pushpin: Working on Set 
 
+:round_pushpin: Working on Set 
 
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
@@ -328,8 +327,8 @@ pulling bits out of Set
 | moveSetIndex | type | capt? | shift |
 |--------------|------|-------|-------|
 |2 | 0 | true | 11 |
-pulling bits out of Set 
 
+:round_pushpin: pulling bits out of Set 
 
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
@@ -338,8 +337,8 @@ pulling bits out of Set
 |`3`|0| 0| 0| 0| 0| 0| 0| 0| 1|
 |`2`|0| 0| 0| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-:round_pushpin: Working on Set 
 
+:round_pushpin: Working on Set 
 
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
@@ -354,8 +353,8 @@ pulling bits out of Set
 | moveSetIndex | type | capt? | shift |
 |--------------|------|-------|-------|
 |2 | 0 | true | 11 |
-pulling bits out of Set 
 
+:round_pushpin: pulling bits out of Set 
 
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
@@ -364,8 +363,8 @@ pulling bits out of Set
 |`3`|0| 0| 0| 0| 0| 0| 1| 0| 0|
 |`2`|0| 0| 0| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-:round_pushpin: Working on Set 
 
+:round_pushpin: Working on Set 
 
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
@@ -380,8 +379,8 @@ pulling bits out of Set
 | moveSetIndex | type | capt? | shift |
 |--------------|------|-------|-------|
 |2 | 0 | true | 11 |
-pulling bits out of Set 
 
+:round_pushpin: pulling bits out of Set 
 
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
@@ -390,8 +389,8 @@ pulling bits out of Set
 |`3`|0| 0| 0| 0| 1| 0| 0| 0| 0|
 |`2`|0| 0| 0| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-:round_pushpin: Working on Set 
 
+:round_pushpin: Working on Set 
 
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
@@ -406,8 +405,8 @@ pulling bits out of Set
 | moveSetIndex | type | capt? | shift |
 |--------------|------|-------|-------|
 |3 | 0 | true | 9 |
-pulling bits out of Set 
 
+:round_pushpin: pulling bits out of Set 
 
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
@@ -416,8 +415,8 @@ pulling bits out of Set
 |`3`|0| 0| 1| 0| 0| 0| 0| 0| 0|
 |`2`|0| 1| 0| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-:round_pushpin: Working on Set 
 
+:round_pushpin: Working on Set 
 
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
@@ -432,8 +431,8 @@ pulling bits out of Set
 | moveSetIndex | type | capt? | shift |
 |--------------|------|-------|-------|
 |3 | 0 | true | 9 |
-pulling bits out of Set 
 
+:round_pushpin: pulling bits out of Set 
 
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
@@ -442,8 +441,8 @@ pulling bits out of Set
 |`3`|0| 0| 0| 0| 0| 0| 1| 0| 0|
 |`2`|0| 0| 0| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-:round_pushpin: Working on Set 
 
+:round_pushpin: Working on Set 
 
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
@@ -458,8 +457,8 @@ pulling bits out of Set
 | moveSetIndex | type | capt? | shift |
 |--------------|------|-------|-------|
 |3 | 0 | true | 9 |
-pulling bits out of Set 
 
+:round_pushpin: pulling bits out of Set 
 
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
@@ -468,8 +467,8 @@ pulling bits out of Set
 |`3`|0| 0| 0| 0| 1| 0| 0| 0| 0|
 |`2`|0| 0| 0| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-:round_pushpin: Working on Set 
 
+:round_pushpin: Working on Set 
 
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
@@ -484,8 +483,8 @@ pulling bits out of Set
 | moveSetIndex | type | capt? | shift |
 |--------------|------|-------|-------|
 |5 | 1 | true | 1 |
-pulling bits out of Set 
 
+:round_pushpin: pulling bits out of Set 
 
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
@@ -494,8 +493,8 @@ pulling bits out of Set
 |`3`|0| 0| 0| 0| 0| 1| 1| 1| 0|
 |`2`|0| 0| 0| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-:round_pushpin: Working on Set 
 
+:round_pushpin: Working on Set 
 
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
@@ -510,8 +509,8 @@ pulling bits out of Set
 | moveSetIndex | type | capt? | shift |
 |--------------|------|-------|-------|
 |5 | 1 | true | 1 |
-pulling bits out of Set 
 
+:round_pushpin: pulling bits out of Set 
 
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
