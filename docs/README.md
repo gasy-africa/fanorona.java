@@ -32,7 +32,7 @@ The full board is displayed below, the white pieces are displayed at the bottom 
 |:two:|:white_circle:|:white_circle:|:white_circle:|:white_circle:|:white_circle:|:white_circle:|:white_circle:|:white_circle:|:white_circle:|  INITIAL_TOP  |
 |:one:|:white_circle:|:white_circle:|:white_circle:|:white_circle:|:white_circle:|:white_circle:|:white_circle:|:white_circle:|:white_circle:|             |
 
-In a programmatical point of view, the entire board is contained in a single 64-bit long. 
+In a programmatical point of view, the entire board is contained in a single 64-bit long. Dr Epstein calls the board a `Bitboard`.
 
 ```java
 // BINARY Annotation
