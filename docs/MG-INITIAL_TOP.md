@@ -1,7 +1,7 @@
-# Move Generator - Initial Top Scenario
+# Move Generator - INITIAL_TOP Scenario
 
 
-### :bulb: finding Next Element 
+### :bulb: Move # 1 - finding Next Element 
 
 
 :round_pushpin: Working on Set 
@@ -30,7 +30,7 @@
 |  :two: |0| 0| 0| 0| 0| 0| 0| 1| 0|
 |  :one: |0| 0| 0| 0| 0| 0| 0| 0| 0|
 
-### :bulb: finding Next Element 
+### :bulb: Move # 2 - finding Next Element 
 
 
 :round_pushpin: Working on Set 
@@ -59,7 +59,7 @@
 |  :two: |0| 0| 0| 0| 0| 1| 0| 0| 0|
 |  :one: |0| 0| 0| 0| 0| 0| 0| 0| 0|
 
-### :bulb: finding Next Element 
+### :bulb: Move # 3 - finding Next Element 
 
 
 :round_pushpin: Working on Set 
@@ -88,7 +88,7 @@
 |  :two: |0| 0| 1| 0| 0| 0| 0| 0| 0|
 |  :one: |0| 0| 0| 0| 0| 0| 0| 0| 0|
 
-### :bulb: finding Next Element 
+### :bulb: Move # 4 - finding Next Element 
 
 
 :round_pushpin: Working on Set 
@@ -117,7 +117,7 @@
 |  :two: |1| 0| 0| 0| 0| 0| 0| 0| 0|
 |  :one: |0| 0| 0| 0| 0| 0| 0| 0| 0|
 
-### :bulb: finding Next Element 
+### :bulb: Move # 5 - finding Next Element 
 
 
 :round_pushpin: Working on Set 
@@ -146,7 +146,7 @@
 |  :two: |0| 0| 0| 0| 0| 0| 0| 0| 0|
 |  :one: |0| 0| 0| 0| 0| 0| 0| 0| 0|
 
-### :bulb: finding Next Element 
+### :bulb: Move # 6 - finding Next Element 
 
 
 :round_pushpin: Working on Set 
@@ -175,7 +175,7 @@
 |  :two: |0| 0| 0| 0| 0| 0| 0| 0| 0|
 |  :one: |0| 0| 0| 0| 0| 0| 0| 0| 0|
 
-### :bulb: finding Next Element 
+### :bulb: Move # 7 - finding Next Element 
 
 
 :round_pushpin: Working on Set 
@@ -204,7 +204,7 @@
 |  :two: |0| 0| 0| 0| 0| 0| 0| 0| 0|
 |  :one: |0| 0| 0| 0| 0| 0| 0| 0| 0|
 
-### :bulb: finding Next Element 
+### :bulb: Move # 8 - finding Next Element 
 
 
 :round_pushpin: Working on Set 
@@ -233,7 +233,7 @@
 |  :two: |0| 0| 0| 0| 0| 0| 0| 0| 0|
 |  :one: |0| 0| 0| 0| 0| 0| 0| 0| 0|
 
-### :bulb: finding Next Element 
+### :bulb: Move # 9 - finding Next Element 
 
 
 :round_pushpin: Working on Set 
@@ -262,7 +262,7 @@
 |  :two: |0| 0| 0| 0| 0| 0| 0| 0| 0|
 |  :one: |0| 0| 0| 0| 0| 0| 0| 0| 0|
 
-### :bulb: finding Next Element 
+### :bulb: Move # 10 - finding Next Element 
 
 
 :round_pushpin: Working on Set 
@@ -291,7 +291,7 @@
 |  :two: |0| 0| 0| 0| 0| 0| 0| 0| 0|
 |  :one: |0| 0| 0| 0| 0| 0| 0| 0| 0|
 
-### :bulb: finding Next Element 
+### :bulb: Move # 11 - finding Next Element 
 
 
 :round_pushpin: Working on Set 
@@ -320,7 +320,7 @@
 |  :two: |0| 0| 0| 0| 0| 0| 0| 0| 0|
 |  :one: |0| 0| 0| 0| 0| 0| 0| 0| 0|
 
-### :bulb: finding Next Element 
+### :bulb: Move # 12 - finding Next Element 
 
 
 :round_pushpin: Working on Set 
@@ -349,7 +349,7 @@
 |  :two: |0| 0| 0| 1| 0| 0| 0| 0| 0|
 |  :one: |0| 0| 0| 0| 0| 0| 0| 0| 0|
 
-### :bulb: finding Next Element 
+### :bulb: Move # 13 - finding Next Element 
 
 
 :round_pushpin: Working on Set 
@@ -378,7 +378,7 @@
 |  :two: |0| 0| 0| 0| 0| 0| 0| 0| 0|
 |  :one: |0| 0| 0| 0| 0| 0| 0| 0| 0|
 
-### :bulb: finding Next Element 
+### :bulb: Move # 14 - finding Next Element 
 
 
 :round_pushpin: Working on Set 
@@ -407,7 +407,7 @@
 |  :two: |0| 0| 0| 0| 0| 0| 0| 0| 0|
 |  :one: |0| 0| 0| 0| 0| 0| 0| 0| 0|
 
-### :bulb: finding Next Element 
+### :bulb: Move # 15 - finding Next Element 
 
 
 :round_pushpin: Working on Set 
@@ -436,7 +436,7 @@
 |  :two: |0| 0| 0| 0| 0| 0| 0| 0| 0|
 |  :one: |0| 0| 0| 0| 0| 0| 0| 0| 0|
 
-### :bulb: finding Next Element 
+### :bulb: Move # 16 - finding Next Element 
 
 
 :round_pushpin: Working on Set 
@@ -465,7 +465,7 @@
 |  :two: |0| 1| 0| 0| 0| 0| 0| 0| 0|
 |  :one: |0| 0| 0| 0| 0| 0| 0| 0| 0|
 
-### :bulb: finding Next Element 
+### :bulb: Move # 17 - finding Next Element 
 
 
 :round_pushpin: Working on Set 
@@ -494,7 +494,7 @@
 |  :two: |0| 0| 0| 0| 0| 0| 0| 0| 0|
 |  :one: |0| 0| 0| 0| 0| 0| 0| 0| 0|
 
-### :bulb: finding Next Element 
+### :bulb: Move # 18 - finding Next Element 
 
 
 :round_pushpin: Working on Set 
@@ -523,7 +523,7 @@
 |  :two: |0| 0| 0| 0| 0| 0| 0| 0| 0|
 |  :one: |0| 0| 0| 0| 0| 0| 0| 0| 0|
 
-### :bulb: finding Next Element 
+### :bulb: Move # 19 - finding Next Element 
 
 
 :round_pushpin: Working on Set 
@@ -552,7 +552,7 @@
 |  :two: |0| 0| 0| 0| 0| 0| 0| 0| 0|
 |  :one: |0| 0| 0| 0| 0| 0| 0| 0| 0|
 
-### :bulb: finding Next Element 
+### :bulb: Move # 20 - finding Next Element 
 
 
 :round_pushpin: Working on Set 
@@ -580,3 +580,5 @@
 |:three: |1| 1| 1| 0| 0| 0| 0| 0| 0|
 |  :two: |0| 0| 0| 0| 0| 0| 0| 0| 0|
 |  :one: |0| 0| 0| 0| 0| 0| 0| 0| 0|
+
+ :+1: Total Number of Moves : 20
