@@ -50,3 +50,8 @@ The [`Bits.java`](../src/main/java/logic/board/Bits.java) source code has been r
 ##### :one: [MG-INITIAL_TOP](MG-INITIAL_TOP.md)
 
 The game is at the beginning and the white player is the next to move.
+
+
+# References
+
+https://www.mathsisfun.com/binary-decimal-hexadecimal-converter.html
