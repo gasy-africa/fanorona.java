@@ -24,12 +24,11 @@ public static final int SHIFT_BACKSLANT = 9;
 
 |`~`     |a| b| c| d| e| f| g| h| i|
 |--------|-|--|--|--|--|--|--|--|--|
-| :five: |b| b| b| b| b| b| b| b| b|
-| :four: |b| b| b| b| b| b| b| b| b|
-|:three: |b| w| b| w|  | b| w| b| w|
-|  :two: |w| w| w| w| w| w| w| w| w|
-|  :one: |w| w| w| w| w| w| w| w| w|
-
+| :five: |:black_circle:| :black_circle:| :black_circle:| :black_circle:| :black_circle:| :black_circle:| :black_circle:| :black_circle:| :black_circle:|
+| :four: |:black_circle:| :black_circle:| :black_circle:| :black_circle:| :black_circle:| :black_circle:| :black_circle:| :black_circle:| :black_circle:|
+|:three: |:black_circle:| :white_circle:| :black_circle:| :white_circle:|  | :black_circle:| :white_circle:| :black_circle:| :white_circle:|
+|  :t:white_circle:o: |::white_circle:hite_circle:| :white_circle:| :white_circle:| :white_circle:| :white_circle:| :white_circle:| :white_circle:| :white_circle:| :white_circle:|
+|  :one: |:white_circle:| :white_circle:| :white_circle:| :white_circle:| :white_circle:| :white_circle:| :white_circle:| :white_circle:| :white_circle:|
 ### :a: Scenarios
 
 ##### :one: [MG-INITIAL_TOP](MG-INITIAL_TOP.md)
