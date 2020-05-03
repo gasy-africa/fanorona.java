@@ -1,6 +1,8 @@
 # Move Generator Analysis
 
-Working on Set:	 -Start---
+:round_pushpin: Working on Set 
+
+
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
 |`5`|0| 0| 0| 0| 0| 0| 0| 0| 0|
@@ -8,10 +10,15 @@ Working on Set:	 -Start---
 |`3`|0| 1| 0| 1| 1| 0| 1| 0| 1|
 |`2`|1| 0| 1| 0| 0| 1| 0| 1| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-Working on Set:	 -End---
-Start set
-moveSetIndex : 0 type: 0 capt? true shift: 10
-pulling bits out of Set:	 -Start---
+
+
+
+| moveSetIndex | type | capt? | shift |
+|--------------|------|-------|-------|
+|0 | 0 | true | 10 |
+pulling bits out of Set 
+
+
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
 |`5`|0| 0| 0| 0| 0| 0| 0| 1| 0|
@@ -19,10 +26,9 @@ pulling bits out of Set:	 -Start---
 |`3`|0| 0| 0| 0| 0| 0| 0| 1| 0|
 |`2`|0| 0| 0| 0| 0| 0| 0| 1| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-pulling bits out of Set:	 -End---
-End set
-moveSetIndex : 0 type: 0 capt? true shift: 10
-Working on Set:	 -Start---
+:round_pushpin: Working on Set 
+
+
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
 |`5`|0| 0| 0| 0| 0| 0| 0| 0| 0|
@@ -30,10 +36,15 @@ Working on Set:	 -Start---
 |`3`|0| 1| 0| 1| 1| 0| 1| 0| 1|
 |`2`|1| 0| 1| 0| 0| 1| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-Working on Set:	 -End---
-Start set
-moveSetIndex : 0 type: 0 capt? true shift: 10
-pulling bits out of Set:	 -Start---
+
+
+
+| moveSetIndex | type | capt? | shift |
+|--------------|------|-------|-------|
+|0 | 0 | true | 10 |
+pulling bits out of Set 
+
+
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
 |`5`|0| 0| 0| 0| 0| 1| 0| 0| 0|
@@ -41,10 +52,9 @@ pulling bits out of Set:	 -Start---
 |`3`|0| 0| 0| 0| 0| 1| 0| 0| 0|
 |`2`|0| 0| 0| 0| 0| 1| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-pulling bits out of Set:	 -End---
-End set
-moveSetIndex : 0 type: 0 capt? true shift: 10
-Working on Set:	 -Start---
+:round_pushpin: Working on Set 
+
+
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
 |`5`|0| 0| 0| 0| 0| 0| 0| 0| 0|
@@ -52,10 +62,15 @@ Working on Set:	 -Start---
 |`3`|0| 1| 0| 1| 1| 0| 1| 0| 1|
 |`2`|1| 0| 1| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-Working on Set:	 -End---
-Start set
-moveSetIndex : 0 type: 0 capt? true shift: 10
-pulling bits out of Set:	 -Start---
+
+
+
+| moveSetIndex | type | capt? | shift |
+|--------------|------|-------|-------|
+|0 | 0 | true | 10 |
+pulling bits out of Set 
+
+
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
 |`5`|0| 0| 1| 0| 0| 0| 0| 0| 0|
@@ -63,10 +78,9 @@ pulling bits out of Set:	 -Start---
 |`3`|0| 0| 1| 0| 0| 0| 0| 0| 0|
 |`2`|0| 0| 1| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-pulling bits out of Set:	 -End---
-End set
-moveSetIndex : 0 type: 0 capt? true shift: 10
-Working on Set:	 -Start---
+:round_pushpin: Working on Set 
+
+
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
 |`5`|0| 0| 0| 0| 0| 0| 0| 0| 0|
@@ -74,10 +88,15 @@ Working on Set:	 -Start---
 |`3`|0| 1| 0| 1| 1| 0| 1| 0| 1|
 |`2`|1| 0| 0| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-Working on Set:	 -End---
-Start set
-moveSetIndex : 0 type: 0 capt? true shift: 10
-pulling bits out of Set:	 -Start---
+
+
+
+| moveSetIndex | type | capt? | shift |
+|--------------|------|-------|-------|
+|0 | 0 | true | 10 |
+pulling bits out of Set 
+
+
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
 |`5`|1| 0| 0| 0| 0| 0| 0| 0| 0|
@@ -85,10 +104,9 @@ pulling bits out of Set:	 -Start---
 |`3`|1| 0| 0| 0| 0| 0| 0| 0| 0|
 |`2`|1| 0| 0| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-pulling bits out of Set:	 -End---
-End set
-moveSetIndex : 0 type: 0 capt? true shift: 10
-Working on Set:	 -Start---
+:round_pushpin: Working on Set 
+
+
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
 |`5`|0| 0| 0| 0| 0| 0| 0| 0| 0|
@@ -96,10 +114,15 @@ Working on Set:	 -Start---
 |`3`|0| 1| 0| 1| 1| 0| 1| 0| 1|
 |`2`|0| 0| 0| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-Working on Set:	 -End---
-Start set
-moveSetIndex : 0 type: 0 capt? true shift: 10
-pulling bits out of Set:	 -Start---
+
+
+
+| moveSetIndex | type | capt? | shift |
+|--------------|------|-------|-------|
+|0 | 0 | true | 10 |
+pulling bits out of Set 
+
+
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
 |`5`|0| 0| 0| 0| 0| 0| 0| 0| 1|
@@ -107,10 +130,9 @@ pulling bits out of Set:	 -Start---
 |`3`|0| 0| 0| 0| 0| 0| 0| 0| 1|
 |`2`|0| 0| 0| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-pulling bits out of Set:	 -End---
-End set
-moveSetIndex : 0 type: 0 capt? true shift: 10
-Working on Set:	 -Start---
+:round_pushpin: Working on Set 
+
+
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
 |`5`|0| 0| 0| 0| 0| 0| 0| 0| 0|
@@ -118,10 +140,15 @@ Working on Set:	 -Start---
 |`3`|0| 1| 0| 1| 1| 0| 1| 0| 0|
 |`2`|0| 0| 0| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-Working on Set:	 -End---
-Start set
-moveSetIndex : 0 type: 0 capt? true shift: 10
-pulling bits out of Set:	 -Start---
+
+
+
+| moveSetIndex | type | capt? | shift |
+|--------------|------|-------|-------|
+|0 | 0 | true | 10 |
+pulling bits out of Set 
+
+
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
 |`5`|0| 0| 0| 0| 0| 0| 1| 0| 0|
@@ -129,10 +156,9 @@ pulling bits out of Set:	 -Start---
 |`3`|0| 0| 0| 0| 0| 0| 1| 0| 0|
 |`2`|0| 0| 0| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-pulling bits out of Set:	 -End---
-End set
-moveSetIndex : 0 type: 0 capt? true shift: 10
-Working on Set:	 -Start---
+:round_pushpin: Working on Set 
+
+
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
 |`5`|0| 0| 0| 0| 0| 0| 0| 0| 0|
@@ -140,10 +166,15 @@ Working on Set:	 -Start---
 |`3`|0| 1| 0| 1| 1| 0| 0| 0| 0|
 |`2`|0| 0| 0| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-Working on Set:	 -End---
-Start set
-moveSetIndex : 0 type: 0 capt? true shift: 10
-pulling bits out of Set:	 -Start---
+
+
+
+| moveSetIndex | type | capt? | shift |
+|--------------|------|-------|-------|
+|0 | 0 | true | 10 |
+pulling bits out of Set 
+
+
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
 |`5`|0| 0| 0| 0| 1| 0| 0| 0| 0|
@@ -151,10 +182,9 @@ pulling bits out of Set:	 -Start---
 |`3`|0| 0| 0| 0| 1| 0| 0| 0| 0|
 |`2`|0| 0| 0| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-pulling bits out of Set:	 -End---
-End set
-moveSetIndex : 0 type: 0 capt? true shift: 10
-Working on Set:	 -Start---
+:round_pushpin: Working on Set 
+
+
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
 |`5`|0| 0| 0| 0| 0| 0| 0| 0| 0|
@@ -162,10 +192,15 @@ Working on Set:	 -Start---
 |`3`|0| 1| 0| 1| 0| 0| 0| 0| 0|
 |`2`|0| 0| 0| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-Working on Set:	 -End---
-Start set
-moveSetIndex : 0 type: 0 capt? true shift: 10
-pulling bits out of Set:	 -Start---
+
+
+
+| moveSetIndex | type | capt? | shift |
+|--------------|------|-------|-------|
+|0 | 0 | true | 10 |
+pulling bits out of Set 
+
+
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
 |`5`|0| 0| 0| 1| 0| 0| 0| 0| 0|
@@ -173,10 +208,9 @@ pulling bits out of Set:	 -Start---
 |`3`|0| 0| 0| 1| 0| 0| 0| 0| 0|
 |`2`|0| 0| 0| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-pulling bits out of Set:	 -End---
-End set
-moveSetIndex : 0 type: 0 capt? true shift: 10
-Working on Set:	 -Start---
+:round_pushpin: Working on Set 
+
+
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
 |`5`|0| 0| 0| 0| 0| 0| 0| 0| 0|
@@ -184,10 +218,15 @@ Working on Set:	 -Start---
 |`3`|0| 1| 0| 0| 0| 0| 0| 0| 0|
 |`2`|0| 0| 0| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-Working on Set:	 -End---
-Start set
-moveSetIndex : 0 type: 0 capt? true shift: 10
-pulling bits out of Set:	 -Start---
+
+
+
+| moveSetIndex | type | capt? | shift |
+|--------------|------|-------|-------|
+|0 | 0 | true | 10 |
+pulling bits out of Set 
+
+
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
 |`5`|0| 1| 0| 0| 0| 0| 0| 0| 0|
@@ -195,10 +234,9 @@ pulling bits out of Set:	 -Start---
 |`3`|0| 1| 0| 0| 0| 0| 0| 0| 0|
 |`2`|0| 0| 0| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-pulling bits out of Set:	 -End---
-End set
-moveSetIndex : 0 type: 0 capt? true shift: 10
-Working on Set:	 -Start---
+:round_pushpin: Working on Set 
+
+
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
 |`5`|0| 0| 0| 0| 0| 0| 0| 0| 0|
@@ -206,10 +244,15 @@ Working on Set:	 -Start---
 |`3`|0| 0| 1| 0| 0| 0| 0| 1| 0|
 |`2`|0| 0| 0| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-Working on Set:	 -End---
-Start set
-moveSetIndex : 1 type: 0 capt? true shift: 1
-pulling bits out of Set:	 -Start---
+
+
+
+| moveSetIndex | type | capt? | shift |
+|--------------|------|-------|-------|
+|1 | 0 | true | 1 |
+pulling bits out of Set 
+
+
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
 |`5`|0| 0| 0| 0| 0| 0| 0| 0| 0|
@@ -217,10 +260,9 @@ pulling bits out of Set:	 -Start---
 |`3`|0| 0| 0| 0| 0| 1| 1| 1| 0|
 |`2`|0| 0| 0| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-pulling bits out of Set:	 -End---
-End set
-moveSetIndex : 1 type: 0 capt? true shift: 1
-Working on Set:	 -Start---
+:round_pushpin: Working on Set 
+
+
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
 |`5`|0| 0| 0| 0| 0| 0| 0| 0| 0|
@@ -228,10 +270,15 @@ Working on Set:	 -Start---
 |`3`|0| 0| 1| 0| 0| 0| 0| 0| 0|
 |`2`|0| 0| 0| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-Working on Set:	 -End---
-Start set
-moveSetIndex : 1 type: 0 capt? true shift: 1
-pulling bits out of Set:	 -Start---
+
+
+
+| moveSetIndex | type | capt? | shift |
+|--------------|------|-------|-------|
+|1 | 0 | true | 1 |
+pulling bits out of Set 
+
+
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
 |`5`|0| 0| 0| 0| 0| 0| 0| 0| 0|
@@ -239,10 +286,9 @@ pulling bits out of Set:	 -Start---
 |`3`|1| 1| 1| 0| 0| 0| 0| 0| 0|
 |`2`|0| 0| 0| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-pulling bits out of Set:	 -End---
-End set
-moveSetIndex : 1 type: 0 capt? true shift: 1
-Working on Set:	 -Start---
+:round_pushpin: Working on Set 
+
+
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
 |`5`|0| 0| 0| 0| 0| 0| 0| 0| 0|
@@ -250,10 +296,15 @@ Working on Set:	 -Start---
 |`3`|0| 0| 0| 0| 1| 0| 1| 0| 1|
 |`2`|0| 0| 0| 1| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-Working on Set:	 -End---
-Start set
-moveSetIndex : 2 type: 0 capt? true shift: 11
-pulling bits out of Set:	 -Start---
+
+
+
+| moveSetIndex | type | capt? | shift |
+|--------------|------|-------|-------|
+|2 | 0 | true | 11 |
+pulling bits out of Set 
+
+
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
 |`5`|1| 0| 0| 0| 0| 0| 0| 0| 0|
@@ -261,10 +312,9 @@ pulling bits out of Set:	 -Start---
 |`3`|0| 0| 1| 0| 0| 0| 0| 0| 0|
 |`2`|0| 0| 0| 1| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-pulling bits out of Set:	 -End---
-End set
-moveSetIndex : 2 type: 0 capt? true shift: 11
-Working on Set:	 -Start---
+:round_pushpin: Working on Set 
+
+
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
 |`5`|0| 0| 0| 0| 0| 0| 0| 0| 0|
@@ -272,10 +322,15 @@ Working on Set:	 -Start---
 |`3`|0| 0| 0| 0| 1| 0| 1| 0| 1|
 |`2`|0| 0| 0| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-Working on Set:	 -End---
-Start set
-moveSetIndex : 2 type: 0 capt? true shift: 11
-pulling bits out of Set:	 -Start---
+
+
+
+| moveSetIndex | type | capt? | shift |
+|--------------|------|-------|-------|
+|2 | 0 | true | 11 |
+pulling bits out of Set 
+
+
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
 |`5`|0| 0| 0| 0| 0| 0| 1| 0| 0|
@@ -283,10 +338,9 @@ pulling bits out of Set:	 -Start---
 |`3`|0| 0| 0| 0| 0| 0| 0| 0| 1|
 |`2`|0| 0| 0| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-pulling bits out of Set:	 -End---
-End set
-moveSetIndex : 2 type: 0 capt? true shift: 11
-Working on Set:	 -Start---
+:round_pushpin: Working on Set 
+
+
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
 |`5`|0| 0| 0| 0| 0| 0| 0| 0| 0|
@@ -294,10 +348,15 @@ Working on Set:	 -Start---
 |`3`|0| 0| 0| 0| 1| 0| 1| 0| 0|
 |`2`|0| 0| 0| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-Working on Set:	 -End---
-Start set
-moveSetIndex : 2 type: 0 capt? true shift: 11
-pulling bits out of Set:	 -Start---
+
+
+
+| moveSetIndex | type | capt? | shift |
+|--------------|------|-------|-------|
+|2 | 0 | true | 11 |
+pulling bits out of Set 
+
+
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
 |`5`|0| 0| 0| 0| 1| 0| 0| 0| 0|
@@ -305,10 +364,9 @@ pulling bits out of Set:	 -Start---
 |`3`|0| 0| 0| 0| 0| 0| 1| 0| 0|
 |`2`|0| 0| 0| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-pulling bits out of Set:	 -End---
-End set
-moveSetIndex : 2 type: 0 capt? true shift: 11
-Working on Set:	 -Start---
+:round_pushpin: Working on Set 
+
+
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
 |`5`|0| 0| 0| 0| 0| 0| 0| 0| 0|
@@ -316,10 +374,15 @@ Working on Set:	 -Start---
 |`3`|0| 0| 0| 0| 1| 0| 0| 0| 0|
 |`2`|0| 0| 0| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-Working on Set:	 -End---
-Start set
-moveSetIndex : 2 type: 0 capt? true shift: 11
-pulling bits out of Set:	 -Start---
+
+
+
+| moveSetIndex | type | capt? | shift |
+|--------------|------|-------|-------|
+|2 | 0 | true | 11 |
+pulling bits out of Set 
+
+
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
 |`5`|0| 0| 1| 0| 0| 0| 0| 0| 0|
@@ -327,10 +390,9 @@ pulling bits out of Set:	 -Start---
 |`3`|0| 0| 0| 0| 1| 0| 0| 0| 0|
 |`2`|0| 0| 0| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-pulling bits out of Set:	 -End---
-End set
-moveSetIndex : 2 type: 0 capt? true shift: 11
-Working on Set:	 -Start---
+:round_pushpin: Working on Set 
+
+
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
 |`5`|0| 0| 0| 0| 0| 0| 0| 0| 0|
@@ -338,10 +400,15 @@ Working on Set:	 -Start---
 |`3`|0| 0| 0| 0| 1| 0| 1| 0| 0|
 |`2`|0| 1| 0| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-Working on Set:	 -End---
-Start set
-moveSetIndex : 3 type: 0 capt? true shift: 9
-pulling bits out of Set:	 -Start---
+
+
+
+| moveSetIndex | type | capt? | shift |
+|--------------|------|-------|-------|
+|3 | 0 | true | 9 |
+pulling bits out of Set 
+
+
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
 |`5`|0| 0| 0| 0| 1| 0| 0| 0| 0|
@@ -349,10 +416,9 @@ pulling bits out of Set:	 -Start---
 |`3`|0| 0| 1| 0| 0| 0| 0| 0| 0|
 |`2`|0| 1| 0| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-pulling bits out of Set:	 -End---
-End set
-moveSetIndex : 3 type: 0 capt? true shift: 9
-Working on Set:	 -Start---
+:round_pushpin: Working on Set 
+
+
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
 |`5`|0| 0| 0| 0| 0| 0| 0| 0| 0|
@@ -360,10 +426,15 @@ Working on Set:	 -Start---
 |`3`|0| 0| 0| 0| 1| 0| 1| 0| 0|
 |`2`|0| 0| 0| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-Working on Set:	 -End---
-Start set
-moveSetIndex : 3 type: 0 capt? true shift: 9
-pulling bits out of Set:	 -Start---
+
+
+
+| moveSetIndex | type | capt? | shift |
+|--------------|------|-------|-------|
+|3 | 0 | true | 9 |
+pulling bits out of Set 
+
+
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
 |`5`|0| 0| 0| 0| 0| 0| 0| 0| 1|
@@ -371,10 +442,9 @@ pulling bits out of Set:	 -Start---
 |`3`|0| 0| 0| 0| 0| 0| 1| 0| 0|
 |`2`|0| 0| 0| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-pulling bits out of Set:	 -End---
-End set
-moveSetIndex : 3 type: 0 capt? true shift: 9
-Working on Set:	 -Start---
+:round_pushpin: Working on Set 
+
+
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
 |`5`|0| 0| 0| 0| 0| 0| 0| 0| 0|
@@ -382,10 +452,15 @@ Working on Set:	 -Start---
 |`3`|0| 0| 0| 0| 1| 0| 0| 0| 0|
 |`2`|0| 0| 0| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-Working on Set:	 -End---
-Start set
-moveSetIndex : 3 type: 0 capt? true shift: 9
-pulling bits out of Set:	 -Start---
+
+
+
+| moveSetIndex | type | capt? | shift |
+|--------------|------|-------|-------|
+|3 | 0 | true | 9 |
+pulling bits out of Set 
+
+
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
 |`5`|0| 0| 0| 0| 0| 0| 1| 0| 0|
@@ -393,10 +468,9 @@ pulling bits out of Set:	 -Start---
 |`3`|0| 0| 0| 0| 1| 0| 0| 0| 0|
 |`2`|0| 0| 0| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-pulling bits out of Set:	 -End---
-End set
-moveSetIndex : 3 type: 0 capt? true shift: 9
-Working on Set:	 -Start---
+:round_pushpin: Working on Set 
+
+
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
 |`5`|0| 0| 0| 0| 0| 0| 0| 0| 0|
@@ -404,10 +478,15 @@ Working on Set:	 -Start---
 |`3`|0| 1| 0| 0| 0| 0| 1| 0| 0|
 |`2`|0| 0| 0| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-Working on Set:	 -End---
-Start set
-moveSetIndex : 5 type: 1 capt? true shift: 1
-pulling bits out of Set:	 -Start---
+
+
+
+| moveSetIndex | type | capt? | shift |
+|--------------|------|-------|-------|
+|5 | 1 | true | 1 |
+pulling bits out of Set 
+
+
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
 |`5`|0| 0| 0| 0| 0| 0| 0| 0| 0|
@@ -415,10 +494,9 @@ pulling bits out of Set:	 -Start---
 |`3`|0| 0| 0| 0| 0| 1| 1| 1| 0|
 |`2`|0| 0| 0| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-pulling bits out of Set:	 -End---
-End set
-moveSetIndex : 5 type: 1 capt? true shift: 1
-Working on Set:	 -Start---
+:round_pushpin: Working on Set 
+
+
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
 |`5`|0| 0| 0| 0| 0| 0| 0| 0| 0|
@@ -426,10 +504,15 @@ Working on Set:	 -Start---
 |`3`|0| 1| 0| 0| 0| 0| 0| 0| 0|
 |`2`|0| 0| 0| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-Working on Set:	 -End---
-Start set
-moveSetIndex : 5 type: 1 capt? true shift: 1
-pulling bits out of Set:	 -Start---
+
+
+
+| moveSetIndex | type | capt? | shift |
+|--------------|------|-------|-------|
+|5 | 1 | true | 1 |
+pulling bits out of Set 
+
+
 |`~`|a| b| c| d| e| f| g| h| i|
 |---|-|--|--|--|--|--|--|--|--|
 |`5`|0| 0| 0| 0| 0| 0| 0| 0| 0|
@@ -437,6 +520,3 @@ pulling bits out of Set:	 -Start---
 |`3`|1| 1| 1| 0| 0| 0| 0| 0| 0|
 |`2`|0| 0| 0| 0| 0| 0| 0| 0| 0|
 |`1`|0| 0| 0| 0| 0| 0| 0| 0| 0|
-pulling bits out of Set:	 -End---
-End set
-moveSetIndex : 5 type: 1 capt? true shift: 1
