@@ -1,12 +1,14 @@
 # Move Generator Analysis
 
 Working on Set:	 -Start---
-~: [a, b, c, d, e, f, g, h, i]
-5: [0, 0, 0, 0, 0, 0, 0, 0, 0]
-4: [0, 0, 0, 0, 0, 0, 0, 0, 0]
-3: [0, 1, 0, 1, 1, 0, 1, 0, 1]
-2: [1, 0, 1, 0, 0, 1, 0, 1, 0]
-1: [0, 0, 0, 0, 0, 0, 0, 0, 0]
+|~ |a | b| c| d| e| f| g| h| i|
+|--|--|--|--|--|--|--|--|--|--|
+|5 | 0| 0| 0| 0| 0| 0| 0| 0| 0|
+|4 | 0| 0| 0| 0| 0| 0| 0| 0| 0|
+|3 | 0| 1| 0| 1| 1| 0| 1| 0| 1|
+|2 | 1| 0| 1| 0| 0| 1| 0| 1| 0|
+|1 | 0| 0| 0| 0| 0| 0| 0| 0| 0|
+```
 Working on Set:	 -End---
 Start set
 moveSetIndex : 0 type: 0 capt? true shift: 10
@@ -400,3 +402,4 @@ pulling bits out of Set:	 -Start---
 pulling bits out of Set:	 -End---
 End set
 moveSetIndex : 5 type: 1 capt? true shift: 1
+```
