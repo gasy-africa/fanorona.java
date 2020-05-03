@@ -23,3 +23,5 @@ public static final int SHIFT_BACKSLANT = 9;
 ### :a: Scenarios
 
 ##### :one: [MG-INITIAL_TOP](MG-INITIAL_TOP.md)
+
+The game is at the beginning and the white player is the next to move.
