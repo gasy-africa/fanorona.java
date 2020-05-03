@@ -22,7 +22,7 @@ public static final int SHIFT_BACKSLANT = 9;
 
 ### :o: Setup
 
-|:vs:    |a| b| c| d| e| f| g| h| i| Comments |
+|:vs:    |`a`| b| c| d| e| f| g| h| i| Comments |
 |--------|-|--|--|--|--|--|--|--|--|----------|
 |:five:|:black_circle:|:black_circle:|:black_circle:|:black_circle:|:black_circle:|:black_circle:|:black_circle:|:black_circle:|:black_circle:| INITIAL_BOTTOM |
 |:four:|:black_circle:|:black_circle:|:black_circle:|:black_circle:|:black_circle:|:black_circle:|:black_circle:|:black_circle:|:black_circle:|                |
