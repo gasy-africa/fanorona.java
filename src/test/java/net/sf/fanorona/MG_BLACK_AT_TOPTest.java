@@ -1,44 +1,37 @@
 package net.sf.fanorona;
 
+import gui.widgets.Options;
 import logic.board.Bits;
 import logic.board.Board;
 import logic.engine.MoveGenerator;
-import org.testng.annotations.*;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
 
-public class MoveGeneratorTest {
+public class MG_BLACK_AT_TOPTest {
 
     Board b;
     MoveGenerator mg;
-    long storedFrom;
-    long storedTo;
-
 
     @BeforeClass
     public void setUp() {
-        b = new Board();
-//        b.myPieces = Bits.INITIAL_TOP;
-//        b.myPieces = 544790103982080L;
-//        b.myPieces = 4611686018600926719L;
-//        storedFrom = 4611686018600926719L;
-//        storedFrom = b.myPieces;
-//        storedTo = 16777216L; // Bits.ON_BOARD & ~(b.myPieces | b.opponentPieces);
-//        b.opponentPieces = 562399469895680L;
-//        System.out.println("myPieces   : --------------");
-//        Bits.display(storedFrom);
-//        Bits.display(storedTo);
-//        Bits.display(b.opponentPieces);
 
+        b = new Board();
+        b.myPieces = Bits.INITIAL_BOT;
+        b.opponentPieces = Bits.INITIAL_TOP;
         mg = new MoveGenerator(b);
         // Bits.display(mg.set); // the set is empty when starting
     }
 
-//    @Test(groups = { "fast" })
-    public void aFastTest() {
+    @Test(groups = { "bottom" })
+    public void bottomTest() {
 
-        System.out.println("# Move Generator - General Scenario\n");
+        System.out.println("# Move Generator - INITIAL_BOT Scenario\n");
+
+        int moves = 0; // total number of moves before getting out
 
         while (mg.hasMoreElements()) {
-            System.out.println("\n### :bulb: finding Next Element \n");
+            moves += 1;
+            System.out.println("\n### :bulb: Move # " + moves + " - finding Next Element \n");
             System.out.println("\n:round_pushpin: Working on Set \n");
             Bits.display(mg.set);
             System.out.println("\n\n");
@@ -49,6 +42,9 @@ public class MoveGeneratorTest {
             System.out.println("\n:round_pushpin: pulling bits out of Set \n");
             Bits.display(mg.nextElement());
         }
+
+        System.out.println("\n :+1: Total Number of Moves : " + moves);
+
     }
 
     //@Test(groups = { "slow" })

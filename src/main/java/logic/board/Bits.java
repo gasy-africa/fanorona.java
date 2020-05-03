@@ -56,21 +56,21 @@ public abstract class Bits {
 	}
 
 	// how much to shift from coordinates
-	public static final int SHIFT_VERTICAL = 10;
-	public static final int SHIFT_HORIZONTAL = 1;
-	public static final int SHIFT_SLANT = 11;
-	public static final int SHIFT_BACKSLANT = 9;
+	public static final int SHIFT_VERTICAL = 0b1010; // 10
+	public static final int SHIFT_HORIZONTAL = 0b1; // 1
+	public static final int SHIFT_SLANT = 0b1011; // 11
+	public static final int SHIFT_BACKSLANT = 0b1001; // 9
 
 	// count number of set bits in a word
-	static final long ONES = 0x5555555555555555L; // A series of 0101 0101 0101 on all 64 bits
-	static final long TWOS = 0x3333333333333333L; // A series of 0011 0011 0011 on all 64 bits
-	static final int FOURS = 0x0f0f0f0f; // A series 0f 0000 1111 0000 1111 on only last 32 bits
+	static final long ONES = 0b0101010101010101010101010101010101010101010101010101010101010101L; // A series of 0101 0101 0101 on all 64 bits
+	static final long TWOS = 0b0011001100110011001100110011001100110011001100110011001100110011L; // A series of 0011 0011 0011 on all 64 bits
+	static final int FOURS = 0b00001111000011110000111100001111; // A series 0f 0000 1111 0000 1111 on only last 32 bits
 
 	public static int count(long set) {
 		set -= (set >>> 1) & ONES;
-		set = (set & TWOS) + ((set >>> 2) & TWOS);
-		int result = (int) set + (int) (set >>> 32);
-		return (((result & FOURS) + ((result >>> 4) & FOURS)) * 0x01010101) >>> 24;
+		set = (set & TWOS) + ((set >>> 0b10) & TWOS);
+		int result = (int) set + (int) (set >>> 0b100000);
+		return (((result & FOURS) + ((result >>> 0b100) & FOURS)) * 0b1000000010000000100000001) >>> 0b11000;
 	}
 
     // Fanorona Board
@@ -95,11 +95,7 @@ public abstract class Bits {
 
     public static List<List<Character>> display(String bin) {
 
-        //                   CWxxxxxxxxxxxx5abcdefghi4abcdefghi3abcdefghi2abcdefghi1abcdefghi
-        //                   0123456789012345678901234567890123456789012345678901234567890123
-        long INITIAL_BOT = 0b0000000000000000000000000000000000001010010101111111110111111111L;
-
-        List<Character> control = new ArrayList<>();
+	    List<Character> control = new ArrayList<>();
         IntStream.range(0, 4).forEach(index -> control.add(bin.charAt(index)));
         List<Character> one = new ArrayList<Character>();
         IntStream.range(55, 64).forEach(index -> one.add(bin.charAt(index)));
@@ -120,15 +116,34 @@ public abstract class Bits {
         board.add(four); // board(4)
         board.add(five); // board(5)
 
-        System.out.println("~: [a, b, c, d, e, f, g, h, i]");
-        System.out.println("5: "+ board.get(5));
-        System.out.println("4: "+ board.get(4));
-        System.out.println("3: "+ board.get(3));
-        System.out.println("2: "+ board.get(2));
-        System.out.println("1: "+ board.get(1));
+        System.out.println("|`~`     |a| b| c| d| e| f| g| h| i|");
+        System.out.println("|--------|-|--|--|--|--|--|--|--|--|");
+        for(int i=5; i >= 1; i--) {
+            String row = String.format("|%7s %-25s",displayEmoji(i),display(board.get(i)));
+            System.out.println(row);
+        }
 
         return board;
     }
 
+    static String display(List<Character> row) {
+	    char pipe = '|';
+	    return row.toString().replace(',', pipe).replace('[',pipe).replace(']',pipe);
+    }
+
+    static String displayEmoji(int number) {
+        List<String> emoji = new ArrayList<String>();
+        emoji.add(":zero:");
+        emoji.add(":one:");
+        emoji.add(":two:");
+        emoji.add(":three:");
+        emoji.add(":four:");
+        emoji.add(":five:");
+        emoji.add(":six:");
+        emoji.add(":seven:");
+        emoji.add(":eight:");
+        emoji.add(":nine:");
+        return emoji.get(number);
+    }
 
 }
