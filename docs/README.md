@@ -22,13 +22,14 @@ public static final int SHIFT_BACKSLANT = 9;
 
 ### :o: Setup
 
-|`~`     |a| b| c| d| e| f| g| h| i|
+|`~`.    |a| b| c| d| e| f| g| h| i|
 |--------|-|--|--|--|--|--|--|--|--|
-| :five: |:black_circle:| :black_circle:| :black_circle:| :black_circle:| :black_circle:| :black_circle:| :black_circle:| :black_circle:| :black_circle:|
-| :four: |:black_circle:| :black_circle:| :black_circle:| :black_circle:| :black_circle:| :black_circle:| :black_circle:| :black_circle:| :black_circle:|
-|:three: |:black_circle:| :white_circle:| :black_circle:| :white_circle:|  | :black_circle:| :white_circle:| :black_circle:| :white_circle:|
-|  :two: |:white_circle:| :white_circle:| :white_circle:| :white_circle:| :white_circle:| :white_circle:| :white_circle:| :white_circle:| :white_circle:|
-|  :one: |:white_circle:| :white_circle:| :white_circle:| :white_circle:| :white_circle:| :white_circle:| :white_circle:| :white_circle:| :white_circle:|
+|:five:|:black_circle:|:black_circle:|:black_circle:|:black_circle:|:black_circle:|:black_circle:|:black_circle:|:black_circle:|:black_circle:|
+|:four:|:black_circle:|:black_circle:|:black_circle:|:black_circle:|:black_circle:|:black_circle:|:black_circle:|:black_circle:|:black_circle:|
+|:three:|:black_circle:|:white_circle:|:black_circle:|:white_circle:||:black_circle:|:white_circle:|:black_circle:|:white_circle:|
+|:two:|:white_circle:|:white_circle:|:white_circle:|:white_circle:|:white_circle:|:white_circle:|:white_circle:|:white_circle:|:white_circle:|
+|:one:|:white_circle:|:white_circle:|:white_circle:|:white_circle:|:white_circle:|:white_circle:|:white_circle:|:white_circle:|:white_circle:|
+
 ### :a: Scenarios
 
 ##### :one: [MG-INITIAL_TOP](MG-INITIAL_TOP.md)
