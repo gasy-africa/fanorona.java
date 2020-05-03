@@ -14,18 +14,18 @@ public class MoveGenerator // implements Enumeration (not really)
 											// capturability
 
 	// what kind of move we're making and which pieces can move that way
-	int moveSetIndex; // where we are in the list
-	long set; // set of positions this moveSet is working on
+	/*TODO:BR remove public*/public int moveSetIndex; // where we are in the list
+	/*TODO:BR remove public*/public long set; // set of positions this moveSet is working on
 
 	// what kind of move is represented by the bits in set
-	int captureType;
+	/*TODO:BR remove public*/public int captureType;
 	static final int CAPTURE_FORWARD = 0;
 	static final int CAPTURE_BACKWARD = 1;
 	static final int NO_CAPTURE = 2;
 	static final int PASS = 3;
 	static final int NO_MORE_MOVES = 4;
-	boolean madeCapture;
-	int shift; // which direction pieces are moving in current move set
+	/*TODO:BR remove public*/public boolean madeCapture;
+    /*TODO:BR remove public*/public int shift; // which direction pieces are moving in current move set
 
 	// The main routine to find sets of moves
 	// nextElement then pulls off the moves from these sets one bit at a time.
