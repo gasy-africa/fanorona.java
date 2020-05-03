@@ -22,6 +22,8 @@ public static final int SHIFT_BACKSLANT = 9;
 
 ### :o: Setup
 
+The full board is displayed below, the white pieces are displayed at the bottom which is considered the INITIAL_TOP and the black pieces at the top which is considered the INITIAL_BOTTOM
+
 |:vs:    |`a`| `b`| `c`| `d`| `e`| `f`| `g`| `h`| `i`| Comments |
 |--------|-|--|--|--|--|--|--|--|--|----------|
 |:five:|:black_circle:|:black_circle:|:black_circle:|:black_circle:|:black_circle:|:black_circle:|:black_circle:|:black_circle:|:black_circle:| INITIAL_BOTTOM |
@@ -29,6 +31,8 @@ public static final int SHIFT_BACKSLANT = 9;
 |:three:|:black_circle:|:white_circle:|:black_circle:|:white_circle:||:black_circle:|:white_circle:|:black_circle:|:white_circle:|                 |
 |:two:|:white_circle:|:white_circle:|:white_circle:|:white_circle:|:white_circle:|:white_circle:|:white_circle:|:white_circle:|:white_circle:|  INITIAL_TOP  |
 |:one:|:white_circle:|:white_circle:|:white_circle:|:white_circle:|:white_circle:|:white_circle:|:white_circle:|:white_circle:|:white_circle:|             |
+
+In a programmatical point of view, the entire board is contained in a single 64bits long
 
 ### :a: Scenarios
 
