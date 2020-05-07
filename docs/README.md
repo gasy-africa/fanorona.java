@@ -34,6 +34,8 @@ The full board is displayed below, the white pieces are displayed at the bottom 
 
 In a programmatical point of view, the entire board is contained in a single 64-bit long. [Dr Epstein](https://www.ics.uci.edu/~eppstein) calls the board a `Bitboard`.
 
+The white pieces are at the TOP of the binary literal representation, on the left, while the BOTTOM is on the right which represent a smaller binary value.
+
 ```java
 // BINARY Annotation
 // 5 rows (numbers) 9 columns (letters)
