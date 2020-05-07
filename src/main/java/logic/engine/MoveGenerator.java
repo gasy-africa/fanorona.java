@@ -52,7 +52,8 @@ public class MoveGenerator // implements Enumeration (not really)
 			captureType = CAPTURE_FORWARD;
 			movesV = (from & (to >>> Bits.SHIFT_VERTICAL))
 					| (to & (from >>> Bits.SHIFT_VERTICAL));
-			if ((set = (movesV & (target >>> 2 * Bits.SHIFT_VERTICAL))) != 0) {
+            set = (movesV & (target >>> 2 * Bits.SHIFT_VERTICAL));
+			if ( set != 0) {
 				shift = Bits.SHIFT_VERTICAL;
 				madeCapture = true;
 				return;
@@ -61,7 +62,8 @@ public class MoveGenerator // implements Enumeration (not really)
 		case 1: // CAPTURE FORWARD HORIZONTALLY OR BACKWARD -HORIZONTALLY
 			movesH = (from & (to >>> Bits.SHIFT_HORIZONTAL))
 					| (to & (from >>> Bits.SHIFT_HORIZONTAL));
-			if ((set = (movesH & (target >>> 2 * Bits.SHIFT_HORIZONTAL))) != 0) {
+            set = (movesH & (target >>> 2 * Bits.SHIFT_HORIZONTAL));
+			if ( set != 0) {
 				shift = Bits.SHIFT_HORIZONTAL;
 				madeCapture = true;
 				return;
@@ -71,7 +73,8 @@ public class MoveGenerator // implements Enumeration (not really)
 			storedFrom = (from &= Bits.DIAGONAL);
 			movesS = (from & (to >>> Bits.SHIFT_SLANT))
 					| (to & (from >>> Bits.SHIFT_SLANT));
-			if ((set = (movesS & (target >>> 2 * Bits.SHIFT_SLANT))) != 0) {
+            set = (movesS & (target >>> 2 * Bits.SHIFT_SLANT));
+			if ( set != 0) {
 				shift = Bits.SHIFT_SLANT;
 				madeCapture = true;
 				return;
@@ -80,7 +83,8 @@ public class MoveGenerator // implements Enumeration (not really)
 		case 3: // CAPTURE FORWARD BACKSLANTLY OR BACKWARD -BACKSLANTLY
 			movesB = (from & (to >>> Bits.SHIFT_BACKSLANT))
 					| (to & (from >>> Bits.SHIFT_BACKSLANT));
-			if ((set = (movesB & (target >>> 2 * Bits.SHIFT_BACKSLANT))) != 0) {
+            set = (movesB & (target >>> 2 * Bits.SHIFT_BACKSLANT));
+			if ( set != 0) {
 				shift = Bits.SHIFT_BACKSLANT;
 				madeCapture = true;
 				return;
@@ -88,28 +92,32 @@ public class MoveGenerator // implements Enumeration (not really)
 			++moveSetIndex; // fall into...
 		case 4: // CAPTURE FORWARD -VERTICALLY OR BACKWARD VERTICALLY
 			captureType = CAPTURE_BACKWARD;
-			if ((set = (movesV & (target << Bits.SHIFT_VERTICAL))) != 0) {
+            set = (movesV & (target << Bits.SHIFT_VERTICAL));
+			if ( set != 0) {
 				shift = Bits.SHIFT_VERTICAL;
 				madeCapture = true;
 				return;
 			}
 			++moveSetIndex; // fall into...
 		case 5: // CAPTURE FORWARD -HORIZONTALLY OR BACKWARD HORIZONTALLY
-			if ((set = (movesH & (target << Bits.SHIFT_HORIZONTAL))) != 0) {
+            set = (movesH & (target << Bits.SHIFT_HORIZONTAL));
+			if ( set != 0) {
 				shift = Bits.SHIFT_HORIZONTAL;
 				madeCapture = true;
 				return;
 			}
 			++moveSetIndex; // fall into...
 		case 6: // CAPTURE FORWARD -SLANTLY OR BACKWARD SLANTLY
-			if ((set = (movesS & (target << Bits.SHIFT_SLANT))) != 0) {
+            set = (movesS & (target << Bits.SHIFT_SLANT));
+			if ( set != 0) {
 				shift = Bits.SHIFT_SLANT;
 				madeCapture = true;
 				return;
 			}
 			++moveSetIndex; // fall into...
 		case 7: // CAPTURE FORWARD -BACKSLANTLY OR BACKWARD BACKSLANTLY
-			if ((set = (movesB & (target << Bits.SHIFT_BACKSLANT))) != 0) {
+            set = (movesB & (target << Bits.SHIFT_BACKSLANT));
+			if ( set != 0) {
 				shift = Bits.SHIFT_BACKSLANT;
 				madeCapture = true;
 				return;
@@ -130,25 +138,29 @@ public class MoveGenerator // implements Enumeration (not really)
 				return;
 			}
 			captureType = NO_CAPTURE;
-			if ((set = movesV) != 0) {
+            set = movesV;
+			if ( set != 0) {
 				shift = Bits.SHIFT_VERTICAL;
 				return;
 			}
 			++moveSetIndex; // fall into...
 		case 9: // HORIZONTAL SHUFFLE
-			if ((set = movesH) != 0) {
+            set = movesH;
+			if ( set != 0) {
 				shift = Bits.SHIFT_HORIZONTAL;
 				return;
 			}
 			++moveSetIndex; // fall into...
 		case 10: // SLANT SHUFFLE
-			if ((set = movesS) != 0) {
+            set = movesS;
+			if ( set != 0) {
 				shift = Bits.SHIFT_SLANT;
 				return;
 			}
 			++moveSetIndex; // fall into...
 		case 11: // BACKSLANT SHUFFLE
-			if ((set = movesB) != 0) {
+            set = movesB;
+			if ( set != 0) {
 				shift = Bits.SHIFT_BACKSLANT;
 				return;
 			}
@@ -210,11 +222,9 @@ public class MoveGenerator // implements Enumeration (not really)
 						| (move >>> Bits.SHIFT_BACKSLANT);
 			storedTo = Bits.ON_BOARD
 					& ~(move | myPieces | b.opponentPieces | b.alreadyVisited);
-			return;
 		} else {
 			storedFrom = myPieces;
 			storedTo = Bits.ON_BOARD & ~(myPieces | b.opponentPieces);
-			return;
 		}
 	}
 
@@ -229,8 +239,7 @@ public class MoveGenerator // implements Enumeration (not really)
 	public final long nextElement() {
 		if (set == 0)
 			findNextSet(); // make sure we have a move to generate
-		long bit = set;
-		bit &= -bit; // bit = Bits.lastBit(set)
+        long bit = Bits.lastBit(set);
 		set ^= bit;
 		switch (captureType) {
 		case CAPTURE_FORWARD:

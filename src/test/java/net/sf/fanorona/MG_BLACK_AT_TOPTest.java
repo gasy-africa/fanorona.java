@@ -22,7 +22,7 @@ public class MG_BLACK_AT_TOPTest {
         // Bits.display(mg.set); // the set is empty when starting
     }
 
-    @Test(groups = { "bottom" })
+//    @Test(groups = { "bottom" })
     public void bottomTest() {
 
         System.out.println("# Move Generator - INITIAL_BOT Scenario\n");

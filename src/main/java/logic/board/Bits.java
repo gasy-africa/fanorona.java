@@ -90,7 +90,27 @@ public abstract class Bits {
     public static String fill64(String bin) { return String.format("%0"+(64-bin.length())+"d%s", 0, bin+"L"); }
 
     public static List<List<Character>> display(long bin) {
-        return Bits.display(Bits.fill64(Long.toBinaryString(bin)));
+        return display(fill64(Long.toBinaryString(bin)));
+    }
+
+    static String displayEmoji(int number) {
+        List<String> emoji = new ArrayList<String>();
+        emoji.add(":zero:");
+        emoji.add(":one:");
+        emoji.add(":two:");
+        emoji.add(":three:");
+        emoji.add(":four:");
+        emoji.add(":five:");
+        emoji.add(":six:");
+        emoji.add(":seven:");
+        emoji.add(":eight:");
+        emoji.add(":nine:");
+        return emoji.get(number);
+    }
+
+    static String display(List<Character> row) {
+        char pipe = '|';
+        return row.toString().replace(',', pipe).replace('[',pipe).replace(']',pipe);
     }
 
     public static List<List<Character>> display(String bin) {
@@ -124,26 +144,6 @@ public abstract class Bits {
         }
 
         return board;
-    }
-
-    static String display(List<Character> row) {
-	    char pipe = '|';
-	    return row.toString().replace(',', pipe).replace('[',pipe).replace(']',pipe);
-    }
-
-    static String displayEmoji(int number) {
-        List<String> emoji = new ArrayList<String>();
-        emoji.add(":zero:");
-        emoji.add(":one:");
-        emoji.add(":two:");
-        emoji.add(":three:");
-        emoji.add(":four:");
-        emoji.add(":five:");
-        emoji.add(":six:");
-        emoji.add(":seven:");
-        emoji.add(":eight:");
-        emoji.add(":nine:");
-        return emoji.get(number);
     }
 
 }

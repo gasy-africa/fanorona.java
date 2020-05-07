@@ -18,7 +18,7 @@ public class MoveGeneratorTest {
         b = new Board();
 //        b.myPieces = Bits.INITIAL_TOP;
 //        b.myPieces = 544790103982080L;
-//        b.myPieces = 4611686018600926719L;
+        b.myPieces = 4611686018600926719L;
 //        storedFrom = 4611686018600926719L;
 //        storedFrom = b.myPieces;
 //        storedTo = 16777216L; // Bits.ON_BOARD & ~(b.myPieces | b.opponentPieces);
@@ -32,7 +32,7 @@ public class MoveGeneratorTest {
         // Bits.display(mg.set); // the set is empty when starting
     }
 
-//    @Test(groups = { "fast" })
+    @Test(groups = { "fast" })
     public void aFastTest() {
 
         System.out.println("# Move Generator - General Scenario\n");

@@ -20,7 +20,7 @@ public class MG_INITIAL_TOPTest {
         // Bits.display(mg.set); // the set is empty when starting
     }
 
-    @Test(groups = { "top" })
+//    @Test(groups = { "top" })
     public void topTest() {
 
         System.out.println("# Move Generator - INITIAL_TOP Scenario\n");
