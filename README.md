@@ -9,7 +9,7 @@ $ mvn package
 To run the app got to the `target/classes` folder and run `java`:
 
 ```
-cd target/classes; java -Dfile.encoding=UTF-8 -classpath . Acme.Main
+cd target/classes; java -Dfile.encoding=UTF-8 -classpath . Acme.Main; cd -
 ```
 
 :round_pushpin: Running the tests use the below command:
