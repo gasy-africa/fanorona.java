@@ -1,5 +1,7 @@
 # Fanorona
 
+# :x: This project has been archived see [:point_right: Fanorona](https://github.com/gasy-africa/fanorona)
+
 Use Maven to generate the jar and class files
 
 ```
